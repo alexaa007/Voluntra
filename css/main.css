@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0B2447;
+  }
+/*HOME,ABOUT US,MY EVENT*/
+h1{
+    font-size: 23px;
+  }
+.h1pos{
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right:50px;
+    top:15px;
+  }
+.h1text{
+    margin-right:40px;
+}
+/*TOGETHER WE CAN DO IT*/
+h2{
+  font-size: 50px;
+  font-weight:870;
+}
+.h2pos1{
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left:190px;
+    top:80px;
+}
+.h2pos2{
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left:220px;
+    top:133px;
+}
+/*Home paragraph 1*/
+.p1{
+  font-size:22px;
+  font-weight:545;
+}
+.para1{
+    position: absolute;
+    left:160px;
+    top:250px;
+}
+.p11{
+  line-height:0.5;
+}
+/*line homepage*/
+.box{
+  background-color: #0B2447;
+  padding: 2px;
+  position: absolute;
+  width:35%;
+  left:140px;
+  top:640px;
+}
+/*Home para 2*/
+.p2{
+  font-size:25px;
+  font-weight:750;
+  line-height:0.5;
+}
+.para2{
+  position: absolute;
+  left:150px;
+  top:635px;
+}
+/*home page pic 1*/
+.pic1{
+  
+  position: absolute;
+  right:150px;
+  top:235px;
+}
