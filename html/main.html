@@ -1,61 +1,165 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title> Voluntra </title>
-    <link rel="icon" href="../images/logo.png">
-    <link rel="stylesheet" href="../css/main.css">
-    <script defer src="../java_script/main.js"> </script>
-</head>
-<body>
-<img src="../images/logo.png" width="159" height="100" style="margin-bottom: 8px;">
-    <div class="h1pos">
-        <div class="h1text">
-           <h1> Home </h1>
-        </div>
-        <div class="h1text">
-          <h1> About Us </h1>
-        </div>
-        <div class="h1text">
-          <h1> My Events </h1>
-          </div>
-    </div>
-<div class="h2pos1">
-  <h2> Together We </h2>
-</div>
-<div class="h2pos2">
-  <h2> Can Do It! </h2>
-</div>
-<div class="para1">
-  <div class="p1">
-    <div class="p11">
-  <p>Volunteering is a voluntary act of an individual or</p>
-  <p>group freely giving time and labor for community</p>
-  <p>service. </p>
-  <br>
-</div>
-<div class="p11">
-  <p>Many volunteers are specifically trained in the areas</p>
-  <p>they work, such as medicine, education, or</p>
-  <p> emergency rescue.</p>
-</div>
-<br>
-<div class="p11">
-  <p>Volunteering can be a transformative experience</p>
-  <p>that promotes personal growth and development.</p>
-</div>
-  </div>
-</div>
-  <div class="box">
 
-  </div>
-  <div class="para2">
-  <div class="p2">
-    <p>Many people have already volunteered to</p>
-    <p>their fullest! It’s your time!</p>
-  </div>
-</div>
-<div class="pic1">
-  <img src="../images/homepic1.jpg" width="567" height="401" style="margin-bottom: 8px;">
-</div>
+<head>
+	<title> Voluntra </title>
+	<link rel="icon" href="../images/logo.png">
+	<link rel="stylesheet" href="../css/main.css">
+	<script defer src="../java_script/main.js"> </script>
+</head>
+
+<body>
+	<header>
+		<img src="../images/logo.png" width="159" height="100" style="margin-bottom: 8px;">
+		<div class="h1pos">
+			<div class="h1text">
+				<h1> Home </h1>
+			</div>
+			<div class="h1text">
+				<h1> About Us </h1>
+			</div>
+			<div class="h1text">
+				<h1> My Events </h1>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="home1">
+			<div>
+				<div class="h2pos1">
+					<span> Together We </span>
+					<span> Can Do It! </span>
+				</div>
+				<div class="p1">
+					<div class="p11">
+						<p><strong>Volunteering</strong> is a voluntary act of an <strong>individual</strong> or</p>
+						<p>group freely giving time and labor for community</p>
+						<p>service. </p>
+						<br>
+					</div>
+					<div class="p11">
+						<p>Many volunteers are specifically <strong>trained</strong> in the areas</p>
+						<p>they work, such as medicine, education, or</p>
+						<p> emergency rescue.</p>
+					</div>
+					<br>
+					<div class="p11">
+						<p>Volunteering can be a <strong>transformative</strong> experience</p>
+						<p>that promotes <strong>personal growth</strong> and development.</p>
+					</div>
+				</div>
+				<div class="box">
+
+				</div>
+				<div class="p2">
+					<p>Many people have already volunteered to</p>
+					<p>their fullest! It’s your time!</p>
+				</div>
+			</div>
+			<div>
+				<img class="pic1" src="../images/homepic1.png" width="567" height="401" style="margin-bottom: 8px;">
+			</div>
+		</div>
+		<div class="button1">
+			<button id="post-an-event">
+				<a style="text-decoration: none;" href="file:///C:/Users/Alli/Desktop/voluntra/html/login1.html">Post An Event</a>
+			</button>
+			<button id="join-an-event">
+				<a style="text-decoration: none;">Join An Event</a>
+			</button>
+		</div>
+		<div class="arrow">
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+					<div class="text">Events</div>
+					<img src="../images/event.png" width="1000" height="530">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text">Pandemic</div>
+					<img src="../images/pandemic.png" width="1000" height="530">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text">Helping</div>
+					<img src="../images/helping.png" width="1000" height="530">
+				</div>
+				<div class="mySlides fade">
+					<div class="text">Cleaning</div>
+					<img src="../images/cleaning.png" width="1000" height="530">
+				</div>
+				<div class="mySlides fade">
+					<div class="text">Donation</div>
+					<img src="../images/donation.png" width="1000" height="530">
+				</div>
+				<div class="mySlides fade">
+					<div class="text">Schools</div>
+					<img src="../images/school.png" width="1000" height="530">
+				</div>
+
+			</div>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<div class="preveve">
+				<p> Some Previous Events</p>
+			</div>
+<!--
+			<div class="arrow1">
+				<a class="prev1" onclick="plusSlides1(-1)">❮</a>
+				<div class="slideshow-container1">
+
+					<div class="mySlides fade1">
+						<img src="../images/spe1.png" width="330" height="220">
+
+						<img src="../images/spe2.png" width="330" height="220">
+
+						<img src="../images/spe3.png" width="330" height="220">
+
+						<img src="../images/spe4.png" width="330" height="220">
+					</div>
+					<div class="mySlides fade1">
+						<img src="../images/spe5.jpeg" width="330" height="220">
+
+						<img src="../images/spe6.jpg" width="330" height="220">
+
+						<img src="../images/spe7.jpg" width="330" height="220">
+
+						<img src="../images/spe8.jpg" width="330" height="220">
+					</div>
+				</div>
+				<a class="next1" onclick="plusSlides1(1)">❯</a>
+			</div>-->
+			<div class="box1">
+			<footer>
+				<div  class="rights">
+				<img src="../images/logo1.png" width="159" height="104">
+				<p>© 2023.All rights reserved </p>
+			</div>
+			<div class="mail">
+				<img src="../images/Message.png" width="66" height="74">
+				<p>xyz@gmail.com</p>
+				</div>
+				<br>
+				<br>
+				<div class="insta">
+                <img src="../images/insta.png" width="58" height="59">
+				<p> voluntra_06</p>
+				</div>
+			</footer>
+		</div>
+	</div>
+	</main>
 </body>
+
 </html>
