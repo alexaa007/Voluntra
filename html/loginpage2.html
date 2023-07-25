@@ -2,51 +2,56 @@
 <html>
 
 <head>
-    <title> Voluntra </title>
-    <link rel="icon" href="../images/logo.png">
-    <link rel="stylesheet" href="../css/loginpage2.css">
+	<title> Voluntra </title>
+	<link rel="icon" href="../images/logo.png">
+	<link rel="stylesheet" href="../css/loginpage2.css">
 </head>
 
 <body>
-    <header>
+	<header>
 
-        <img src="../images/logo1.png" width="159" height="100" style="margin-bottom: 8px;">
-        <div class="h1pos">
-            <div class="h1text">
-                <h1> Home </h1>
-            </div>
-            <div class="h1text">
-                <h1> About Us </h1>
-            </div>
-            <div class="h1text">
-                <h1> My Events </h1>
-            </div>
-        </div>
+		<img src="../images/logo1.png" width="159" height="100" style="margin-bottom: 8px;">
+		<div class="h1pos">
+			<div class="h1text">
+				<h1> Home </h1>
+			</div>
+			<div class="h1text">
+				<h1> About Us </h1>
+			</div>
+			<div class="h1text">
+				<h1> My Events </h1>
+			</div>
+		</div>
 
-    </header>
-    <div class="main1">
-        <img src="../images/login1.png" width="418" height="474" style="margin: 100px;">
-        <div class="box">
-            <form name="myForm" action="" onsubmit="return validateForm()" method="post">
-                <label for="name"></label>
-                <input type="text" id="name" name="name" placeholder="Name of the Event">
-                <label for="name"></label>
-                <input type="text" id="Phone Number" name="Phone Number" placeholder="Description of the Event">
+	</header>
+	<div class="main1">
+		<img src="../images/login1.png" width="25%" height="25%" style="margin: 100px;">
+		<div class="box">
+			<form name="myForm" action="" onsubmit="return validateForm()" method="post">
 
-                <label for="email"></label>
-                <input type="text" id="email" name="email" placeholder="Place of the Event">
+				<input type="text" placeholder="Name of the Event">
+				<input type="text" placeholder="Description of the Event">
+				<input type="text" placeholder="Place of the Event">
+			
+				<input type="date" class="date" name="date">
+				<input type="number" class="date" placeholder="    Volunteers Required">
+				<input type="text" placeholder="Minimum age required">
+				<div class="boxwhite">
+				<input type="file" class="file">
+			</div>
+			<div class="lineheight"> </div>
+			<div class="boxwhite">
+				<input type="file" class="file">
+			</div>
+				<input type="submit" value="Submit">
+		
+			</form>
+		</div>
 
-                <label for="birthday">Birthday:</label>
-                <input type="date" id="birthday" name="birthday">
-                <input type="submit">
-
-                <label for="password"></label>
-                <input type="password" id="password" name="password" placeholder="Password">
-        </div>
-        </form>
-    </div>
-    </main>
-    </div>
+	</div>
+	</div>
+	</main>
+	</div>
 
 </body>
 
