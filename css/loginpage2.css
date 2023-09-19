@@ -55,14 +55,15 @@ select {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 input[type=submit] {
     font-size: 25px;
-    font-weight:300;
+    font-weight: 300;
     width: 100%;
     background-color: #0B2447;
     color: white;
     padding: 10px 10px;
-    margin: 8px 0;
+    margin: 40px 0;
     border-color: white;
     border-radius: 15px;
     cursor: pointer;
@@ -74,8 +75,8 @@ input[type=submit]:hover {
 
 .box {
     width: 25%;
-    margin-right: 350px;
-    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-bottom: 80px;
 }
 
 form {
@@ -83,19 +84,44 @@ form {
     flex-direction: column;
 }
 
-.date{
+.date {
     background-color: white;
-    padding:12px;
+    padding: 12px;
     border-radius: 4px;
-  
+
 }
-.file{
+
+.date:click {
+    background-color: #0B2447;
+
+}
+
+.file {
     line-height: 4;
     margin-left: 200px;
 }
-.boxwhite{
-        background-color:white;
-        height: 50px;
-        width:100%;
-       border-radius: 4px;
+
+#file-input-1 {
+    display: none;
+}
+
+#file-input-2 {
+    display: none;
+}
+
+.file-input-label-1 {
+    background-color: white;
+    height: 44px;
+    width: 100%;
+    border-radius: 4px;
+    color: #757575;
+    font-size: 14px;
+}
+.file-input-label-2 {
+    background-color: white;
+    height: 44px;
+    width: 100%;
+    border-radius: 4px;
+    color: #757575;
+    font-size: 14px;
 }
