@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: 000000;
+        }
+         ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15 px;
+  overflow: hidden;
+  background-color:#ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: 0B2447 ;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+li .active:hover  {
+  background-color: #1148fd  ;
+}
+
+.active {
+  background-color: #ffffff;
+}
+.flex-container {
+  display: flex;
+  background-color: 0B2447;
+  padding-left: 200px;
+}
+
+.flex-container > div {
+  -webkit-text-fill-color: 0B2447;
+  background-color: 0B2447;
+  margin-left: 20px;
+  padding: 20px;
+  padding-bottom: 70px;
+  font-size: 30px;
+}
+.button {
+  -webkit-text-fill-color:rgb(8, 7, 7) ;
+  background-color:#ffffff;
+  border: none;
+  color:0B2447;
+  padding: 20px;
+  text-align: right ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 200px;
+  margin-right: 120px;
+  margin-left: 50px;
+}
+  button.active:hover  {
+  background-color: #1148fd  ;
+}
+.flex-container {
+  filter: blur(4px);
+}
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgb(255, 255, 255); /* Black w/opacity/see-through */
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: 3px solid #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+        <li><img class="active" src="logomain2.jfif" height="60px" width="150px"></li>
+        <li style="float:right"><a class="active" href="#about">My events</a></li>
+        <li style="float:right"><a class="active" href="#about">About us</a></li>
+        <li style="float:right"><a class="active" href="#about">Home</a></li>
+      </ul>
+      <div class="flex-container">
+    <div><img src="home1.jfif" height="400px" width="300px">    
+      
+  </div>
+  <div><img src="home1.jfif" height="330.5px" width="550px">
+    <a id="joineventbtn" class="button" href="joinevent.html">Join an event</a>
+    <a id="invitebtn" class="button" href="joinevent.html">Invite a friend</a>
+  </div> 
+  </div>
+  <div class="bg-text">
+    <h2></h2>
+    <h1 style="font-size:50px"></h1>
+    <p></p>
+  </div>
+</div>
+</body>
+</html>
