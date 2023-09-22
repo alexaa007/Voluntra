@@ -1,0 +1,101 @@
+body {
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0B2447;
+  }
+
+
+
+header{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 21px;
+  }
+.h1pos{
+    display:flex;
+    justify-content: space-between;
+  }
+.h1text{
+  display: flex;
+    margin-right:8px;
+     justify-content: space-between;
+     font-size: 14px;
+     text-indent: 50px;
+}
+.h2text{
+  justify-content: space-evenly;
+  color: black;
+  margin-right:200px;
+     margin-left:  600px;
+          font-size: 24px;
+     font-weight: 400;
+
+}
+.wrapper{
+  width:1000px;
+  height: 600px;
+background-color: white;
+border: 2px solid black;
+margin-left: 205px;
+margin-right: 150px;
+border-radius: 10px;
+margin-top:75px
+}
+
+.b2{
+  width:1500px;
+  height: 300px;
+  background-color: #0B2447;
+border: 2px solid black;
+margin-top:150px;
+border-radius: 50px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+.h3text{
+  color: white;
+  margin-left: 750px;
+margin-top: -50px;
+margin-right: 20px;
+
+
+}
+.contact{
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+p{
+margin-left: -600px;
+margin-bottom: 160px;
+margin-top: -70px;
+}
+.mail{
+
+  display: flex;
+  align-items: center;
+
+}
+.insta{
+  display: flex;
+  align-items: center;
+}
+.insta_name{
+  margin-left: 20px;
+  margin-top: 0px;
+  align-items: center;
+
+}
+.mail_name{
+  margin-left: 20px;
+  margin-top: 0px;
+ align-items:center;
+}
+
+
