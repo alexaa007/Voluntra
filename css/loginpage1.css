@@ -90,14 +90,15 @@ input[type=submit]:hover {
 }
 #google{
     font-size: 25px;
-    font-weight: bold;
-    display: flex;
+    font-weight:600;
+    display:flex;
     border-radius: 15px;
     width: 100%;
     flex-direction: row;
     color:#0B2447;
     align-items: center;
     cursor: pointer;
+    padding: 10px;
 }
 #google:hover{
     background-color: rgba(255, 255, 255, 0.681);

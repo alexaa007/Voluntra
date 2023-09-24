@@ -2,6 +2,30 @@ body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     color: #0B2447;
+    margin: 0;
+  }
+
+  p {
+    line-height: 0.2em;
+  }
+  /*nav sticky
+  .navbar.sticky {
+    background-color: rgba(0,23,28,.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 4px 2px #000;
+}
+.navbtn {
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  right: 3rem;
+}
+*/
+
+  /*link color*/
+  #link{
+    color:white;
   }
   /*for the nav bar*/
 header{
@@ -29,6 +53,12 @@ h1{
   align-items: center;
   width:100%;
   justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1092px) {
+  .home1 {
+    flex-direction: column-reverse;
+  }
 }
 /*TOGETHER WE CAN DO IT*/
 .h2pos1{
@@ -62,6 +92,8 @@ h1{
 .pic1{
   border-radius: 10px;
   box-shadow:5px;
+  max-width: 100%;
+  min-width: 400px;
 }
 /*button*/
 .button1{
@@ -272,4 +304,8 @@ footer{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.Socials{
+  margin-bottom:20px;
+  font-size:30px;
 }
