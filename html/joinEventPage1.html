@@ -1,13 +1,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Voluntra</title>
     <style>
+       /* Style for the search bar container */
+       .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        /* Style for the search input */
+        .search-input {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        /* Style for the search button */
+        .search-button {
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        /* Style for the search button on hover */
+        .search-button:hover {
+            background-color: #000000;
+        }
       body{
         background-color:0B2447;
       }
@@ -33,7 +65,7 @@ li a {
 }
 
 li .active:hover  {
-  background-color:  #1148fd ;
+  background-color:  #ffffff;
 }
 
 .active {
@@ -42,15 +74,22 @@ li .active:hover  {
 .container {
     padding-top: 70px;
 }
+.carousel-inner{
+  height: 65%;
+}
     </style>
 </head>
 <body>
     <ul>
-        <li><img class="active" src="logo.jfif" height="60px" width="150px"></li>
+        <li><img class="active" src="logo.jpg" height="60px" width="150px"></li>
         <li style="float:right"><a class="active" href="#about">My events</a></li>
         <li style="float:right"><a class="active" href="#about">About us</a></li>
         <li style="float:right"><a class="active" href="#about">Home</a></li>
       </ul>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search the city...">
+        <button class="search-button">Search</button>
+    </div>
       <center>
         <div class="container">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
