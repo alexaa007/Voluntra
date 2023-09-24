@@ -15,18 +15,14 @@ header{
 }
 
 h1{
-    font-size: 21px;
-  }
+  font-size: 23px;
+}
 .h1pos{
-    display:flex;
-    justify-content: space-between;
-  }
+  display:flex;
+  justify-content: space-evenly;
+}
 .h1text{
-  display: flex;
-    margin-right:8px;
-     justify-content: space-between;
-     font-size: 14px;
-     text-indent: 50px;
+  margin-right:40px;
 }
 .h2text{
   justify-content: space-evenly;

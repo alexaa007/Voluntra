@@ -27,6 +27,9 @@ body {
   #link{
     color:white;
   }
+  .link1{
+    color:#0B2447;
+  }
   /*for the nav bar*/
 header{
   display:flex;
