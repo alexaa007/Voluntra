@@ -1,97 +1,98 @@
 body {
-    background-color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0B2447;
-  }
-
-
-
-header{
-    display:flex;
-    width:100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0B2447;
 }
 
-h1{
+header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
   font-size: 23px;
 }
-.h1pos{
-  display:flex;
+
+.h1pos {
+  display: flex;
   justify-content: space-evenly;
 }
-.h1text{
-  margin-right:40px;
+
+.h1text {
+  margin-right: 40px;
 }
-.h2text{
+
+.h2text {
   justify-content: space-evenly;
   color: black;
-  margin-right:200px;
-     margin-left:  600px;
-          font-size: 24px;
-     font-weight: 400;
+  margin-right: 200px;
+  margin-left: 600px;
+  font-size: 24px;
+  font-weight: 400;
 
 }
-.wrapper{
-  width:1000px;
+
+.wrapper {
+  width: 1000px;
   height: 600px;
-background-color: white;
-border: 2px solid black;
-margin-left: 205px;
-margin-right: 150px;
-border-radius: 10px;
-margin-top:75px
+  background-color: white;
+  border: 2px solid black;
+  margin-left: 205px;
+  margin-right: 150px;
+  border-radius: 10px;
+  margin-top: 75px
 }
 
-.b2{
-  width:1500px;
-  height: 300px;
+.b2 {
+  width: 100%;
   background-color: #0B2447;
-border: 2px solid black;
-margin-top:150px;
-border-radius: 50px;
-border-bottom-left-radius: 0px;
-border-bottom-right-radius: 0px;
+
 }
-.h3text{
+
+.h3text {
   color: white;
   margin-left: 750px;
-margin-top: -50px;
-margin-right: 20px;
+  margin-top: -50px;
+  margin-right: 20px;
 
 
 }
-.contact{
+
+.contact {
   margin-left: 50px;
   font-size: 20px;
 }
 
-p{
-margin-left: -600px;
-margin-bottom: 160px;
-margin-top: -70px;
+p {
+  margin-left: -600px;
+  margin-bottom: 160px;
+  margin-top: -70px;
 }
-.mail{
+
+.mail {
 
   display: flex;
   align-items: center;
 
 }
-.insta{
+
+.insta {
   display: flex;
   align-items: center;
 }
-.insta_name{
+
+.insta_name {
   margin-left: 20px;
   margin-top: 0px;
   align-items: center;
 
 }
-.mail_name{
+
+.mail_name {
   margin-left: 20px;
   margin-top: 0px;
- align-items:center;
+  align-items: center;
 }
-
-

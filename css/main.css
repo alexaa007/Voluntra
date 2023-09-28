@@ -279,36 +279,20 @@ img {
 /*footer*/
 footer{
   color:white;
-}
-.box1{
   background-color: #0B2447;
-  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding-top:80px;
+  padding-bottom: 30px;
 }
 .rights{
   display:flex;
-  width:30%;
-  line-height: 2px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.mail{
-  margin-left: 595px;
-  display:flex;
-  width:12%;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.insta{
-  margin-left: 600px;
-  display:flex;
-  width:12%;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 .Socials{
-  margin-bottom:20px;
   font-size:30px;
 }
