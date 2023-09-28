@@ -89,16 +89,16 @@ input[type=submit]:hover {
     margin-right: 350px;
 }
 #google{
-    font-size: 25px;
-    font-weight:600;
+    font-size: 23px;
+    font-weight:550;
     display:flex;
     border-radius: 15px;
     width: 100%;
     flex-direction: row;
     color:#0B2447;
-    align-items: center;
     cursor: pointer;
     padding: 10px;
+    justify-content:space-evenly;
 }
 #google:hover{
     background-color: rgba(255, 255, 255, 0.681);
