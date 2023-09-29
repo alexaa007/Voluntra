@@ -14,20 +14,22 @@ header {
     align-items: center;
 }
 
+li{
+    list-style-type: none;
+    position: relative;
+    padding:10px;
+}
 /*HOME,ABOUT US,MY EVENT*/
-h1 {
+.h1pos{
+    margin-right:40px;
     font-size: 23px;
-}
-
-.h1pos {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.h1text {
-    margin-right: 40px;
-}
-
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #link1{
+    color: white;
+  }
 /*form*/
 .main1 {
     margin-left: 50px;

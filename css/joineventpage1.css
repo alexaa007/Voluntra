@@ -1,0 +1,199 @@
+body {
+   background-color:#0B2447;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+header{
+  display:flex;
+  width:100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+li{
+  list-style-type: none;
+  position: relative;
+  padding:10px;
+}
+.h1pos{
+  margin-right:40px;
+  font-size: 23px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#link1{
+  color:white;
+}
+/* Style for the search bar container */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Style for the search input */
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Style for the search button */
+.search-button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.mySlides {
+  margin-top:50px;
+  display: flex;
+  width:100%;
+  justify-content: center;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(4, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color:rgb(215, 212, 212);
+}
+
+.text {
+  font-style:italic;
+  color: #f2f2f2;
+  font-size: 35px;
+  position: absolute;
+  margin-top:55px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: black;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
+}
+
+.arrow {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/*previous Events*/
+.preveve{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 50px;
+    font-weight:700;
+}
+.mySlides1 {
+  margin-top:50px;
+  display: flex;
+  width:100%;
+  justify-content: center;
+}
+
+.slideshow-container1 {
+  position: relative;
+}
+
+
+.prev1,
+.next1 {
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(4, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev1:hover,
+.next1:hover {
+  background-color:rgb(215, 212, 212);
+}
+
+.arrow1 {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

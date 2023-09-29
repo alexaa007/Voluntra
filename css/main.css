@@ -8,6 +8,11 @@ body {
   p {
     line-height: 0.2em;
   }
+li{
+    list-style-type: none;
+    position: relative;
+    padding:10px;
+}
   /*nav sticky
   .navbar.sticky {
     background-color: rgba(0,23,28,.2);
@@ -39,16 +44,13 @@ header{
   align-items: center;
 }
 /*HOME,ABOUT US,MY EVENT*/
-h1{
-    font-size: 23px;
-  }
 .h1pos{
-    display:flex;
-    justify-content: space-evenly;
-  }
-.h1text{
     margin-right:40px;
-}
+    font-size: 23px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 /*home page content part 1*/
 .home1{
   display:flex;

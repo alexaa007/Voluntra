@@ -2,8 +2,16 @@ body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   color: #0B2447;
+  margin: 0;
 }
-
+p {
+  line-height: 0.2em;
+}
+li{
+  list-style-type: none;
+  position: relative;
+  padding:10px;
+}
 header {
   display: flex;
   width: 100%;
@@ -11,20 +19,19 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
-h1 {
+#link1{
+  color: #0B2447;
+}
+#link{
+  color: white;
+}
+.h1pos{
+  margin-right:40px;
   font-size: 23px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-.h1pos {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.h1text {
-  margin-right: 40px;
-}
-
 .h2text {
   justify-content: space-evenly;
   color: black;
@@ -37,7 +44,7 @@ h1 {
 
 .wrapper {
   width: 1000px;
-  height: 600px;
+  height: 250px;
   background-color: white;
   border: 2px solid black;
   margin-left: 205px;
@@ -46,53 +53,40 @@ h1 {
   margin-top: 75px
 }
 
-.b2 {
-  width: 100%;
+button {
   background-color: #0B2447;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 200px;
+  margin-left: 350px;
+  font-size: 20px;
 
 }
+
 
 .h3text {
   color: white;
   margin-left: 750px;
   margin-top: -50px;
   margin-right: 20px;
-
-
 }
-
-.contact {
-  margin-left: 50px;
-  font-size: 20px;
-}
-
-p {
-  margin-left: -600px;
-  margin-bottom: 160px;
-  margin-top: -70px;
-}
-
-.mail {
-
+footer{
+  color:white;
+  background-color: #0B2447;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-
+  flex-direction: row;
+  padding-top:80px;
+  padding-bottom: 30px;
 }
-
-.insta {
-  display: flex;
+.rights{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
-
-.insta_name {
-  margin-left: 20px;
-  margin-top: 0px;
-  align-items: center;
-
-}
-
-.mail_name {
-  margin-left: 20px;
-  margin-top: 0px;
-  align-items: center;
+.Socials{
+  font-size:30px;
 }
