@@ -15,7 +15,7 @@ header {
 li{
     list-style-type: none;
     position: relative;
-    padding:10px;
+    padding-right: 50px;
 }
 /*HOME,ABOUT US,MY EVENT*/
 .h1pos{

@@ -10,7 +10,7 @@ p {
 li{
   list-style-type: none;
   position: relative;
-  padding:10px;
+  padding-right: 50px;
 }
 header {
   display: flex;

@@ -11,7 +11,7 @@ body {
 li{
     list-style-type: none;
     position: relative;
-    padding:10px;
+    padding-right: 50px;
 }
   /*nav sticky
   .navbar.sticky {
