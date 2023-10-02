@@ -1,177 +1,167 @@
 body {
-    background-color:#0B2447;
-     font-family: Arial, Helvetica, sans-serif;
-     color: white;
-     margin: 0;
- }
- header{
-   display:flex;
-   width:100%;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-  
- }
- li{
-   list-style-type: none;
-   position: relative;
-   padding-right: 50px;
- }
- .h1pos{
-   margin-right:40px;
-   font-size: 23px;
-   display:flex;
-   flex-direction: row;
-   justify-content: space-between;
- }
- #link{
-    color: white;
- }
-.active {
-background-color: #ffffff;
+  background-color: #0B2447;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
 }
-.container {
-background-color: black;
-}
-.grid-container {
-display: grid;
-column-gap: 25px;
-row-gap: 5px;
-grid-template-columns: auto auto;
-background-color:0B2447;
-margin-top: 5px;
+
+header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
 }
+
+li {
+  list-style-type: none;
+  position: relative;
+  padding-right: 50px;
+}
+
+h1 {
+  color: white;
+}
+
+.h1pos {
+  margin-right: 40px;
+  font-size: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#link {
+  color: white;
+}
+
+.active {
+  background-color: #ffffff;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 25px;
+  row-gap: 5px;
+  grid-template-columns: auto auto;
+  background-color: 0B2447;
+  margin-top: 5px;
+
+}
+
 .grid-item1 {
-background-color:#000000;
-text-align: left;
+  background-color: #000000;
+  text-align: left;
 }
+
 .grid-item2 {
-background-color:#000000;
-text-align: right;
+  background-color: #000000;
+  text-align: right;
 }
+
 .bg-text {
-background-color: rgb(255, 255, 255); /* Fallback color */
-background-color: rgb(0, 0, 0); /* Black w/opacity/see-through */
-color: rgb(0, 0, 0);
-font-weight: bold;
-border: 3px solid #000000;
-position: absolute;
-margin-top:46px;
-left: 50%;
-transform: translate(-50%, -50%);
-z-index: 2;
-width: 30%;
-padding: 10px;
-padding-top: 10px;
-text-align: center;
+  background-color: rgb(255, 255, 255);
+  /* Fallback color */
+  background-color: rgb(0, 0, 0);
+  /* Black w/opacity/see-through */
+  color: rgb(255, 255, 255);
+  border: 3px solid #000000;
+  position: absolute;
+  margin-top: 46px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  padding: 10px;
+  padding-top: 10px;
+  text-align: center;
 }
+
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Add padding to containers */
 .container {
-padding: 50px;
-background-color: 25364F;
+  padding: 50px;
+  background-color: 25364F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
-width: 100%;
-padding: 10px;
-margin: 5px 0 20px 0;
-display: inline-block;
-border: none;
-background: #f1f1f1;
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-background-color: #ddd;
-outline: none;
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
 }
 
 /* Overwrite default styles of hr */
 hr {
-border: 1px solid #f1f1f1;
-margin-bottom: 25px;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
 }
 
 /* Set a style for the submit button */
 .registerbtn {
-background-color: #ffffff;
-color: 0B2447;
-padding: 16px 20px;
-margin: 8px 0;
-border: none;
-cursor: pointer;
-width: 100%;
-opacity: 0.9;
+  background-color: #ffffff;
+  color: 0B2447;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
 
 .registerbtn:hover {
-opacity: 1;
-}
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-background-color: #f1f1f1;
-text-align: center;
+  opacity: 1;
 }
 
-/*the container must be positioned relative:*/
-.custom-select {
-    position: relative;
-    font-family: Arial;
-  }
-  
-  .custom-select select {
-    display: none; /*hide original SELECT element:*/
-  }
-  
-  .select-selected {
-    background-color: #f1f1f1;
-  }
-  
-  /*style the arrow inside the select element:*/
-  .select-selected:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
-  }
-  
-  /*point the arrow upwards when the select box is open (active):*/
-  .select-selected.select-arrow-active:after {
-    border-color: transparent transparent #fff transparent;
-    top: 7px;
-  }
-  
-  /*style the items (options), including the selected item:*/
-  .select-items div,.select-selected {
-    color: black;
-    padding: 8px 16px;
-    
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  /*style items (options):*/
-  .select-items {
-    position: absolute;
-    background-color: #f1f1f1;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-  }
-  
-  /*hide the items when the select box is closed:*/
-  .select-hide {
-    display: none;
-  }
-  
+.container {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  display: block;
+  min-width: 231.5px;
+  width: 100% !important;
+  max-width: 483px;
+}
+
+.gender {
+  background-color: #f1f1f1;
+  margin: 5px 0px 20px;
+  padding: 10px;
+  color:#7B7B7B;
+  text-align: left;
+  font-size: 14px;
+}
+
+#gender-modal {
+  z-index: 99;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  width: 209px;
+  background-color: #f1f1f1;
+  color: #7b7b7b;
+  bottom: 8px;
+}
+
+.gender-modal-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

@@ -1,90 +1,149 @@
-
 body {
-    background-color:#0B2447;
-     font-family: Arial, Helvetica, sans-serif;
-     color: white;
-     margin: 0;
- }
- header{
-   display:flex;
-   width:100%;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   background-color: white;
- }
- li{
-   list-style-type: none;
-   position: relative;
-   padding-right: 50px;
- }
- .h1pos{
-   margin-right:40px;
-   font-size: 23px;
-   display:flex;
-   flex-direction: row;
-   justify-content: space-between;
- }
- #link{
+    background-color: #0B2447;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
- }
- #link1{
-   color:#0B2447;
- }
- .button1{
-    width:100%;
-    display:flex;
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  
+  li {
+    list-style-type: none;
+    position: relative;
+    padding-right: 50px;
+  }
+  
+  .h1pos {
+    margin-right: 40px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #link {
+    color: white;
+  }
+  
+  #link1 {
+    color: #0B2447;
+  }
+  
+  .button1 {
+    width: 100%;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top:380px;
-  }
-  #join-an-event{
-    background-color:#0B2447;
-    border-color:black;
-    border-radius:15px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size:20px;
-    font-weight:600;
-    color:white;
-  }
-  #invite-a-friend{
-    background-color:white;
-    border-color:black;
-    border-radius:15px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size:20px;
-    font-weight:600;
-    color:#0B2447;
+    margin-top: 380px;
   }
   
-  .boxmain{
-    display:flex;
-    width:100%;
+  #join-an-event {
+    background-color: #0B2447;
+    border-color: black;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  #invite-a-friend {
+    background-color: white;
+    border-color: black;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0B2447;
+  }
+  
+  .boxmain {
+    display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-  .boximg{
+  
+  .boximg {
     margin-top: 100px;
-    margin-left:200px;
-    width:50%;
+    margin-left: 200px;
+    width: 50%;
     background-color: white;
     height: 300px;
-    width:250px;
+    width: 250px;
   }
-  .boxdetails
-  {
+  
+  .boxdetails {
     margin-top: 100px;
-    margin-right:50px;
-    width:50%;
+    margin-right: 50px;
+    width: 50%;
     background-color: white;
     height: 470px;
     border-radius: 5px;
+  }
+  
+  #copy-link-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #copy-link-blur {
+    background-color: #818181;
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  #copy-link-modal {
+    background-color: white;
+    height: 325px;
+    width: 600px;
+    z-index: 99;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #copy-link-btn {
+    margin-top:150px;
+   text-align: center;
+   background-color: #0B2447;
+   color:white;
+   border-radius: 5px;
+   height: 50px;
+   padding-top:10px;
+   font-size: large;
+  }
+  .top-one{
+    display:flex;
+    flex-direction: row;
+  }
+  .middle-one{
+    display:flex;
+    flex-direction: row;
+  }
+  .link-text{
+    margin-top:40px;
+    margin-left: 40px;
   }

@@ -10,44 +10,34 @@
 <body>
     <header>
         <img src="../images/logo1.png" width="159" height="100" style="margin-bottom: 8px;">
-		<div class="h1pos">
-			<li>
-				<a id="link1" style="text-decoration: none;" href="/html/main.html">Home</a>
-			</li>
-			<li>
-				<a id="link1" style="text-decoration: none;" href="/html/aboutus.html">About Us</a>
-			</li>
-			
-		</div>
+        <div class="h1pos">
+            <li>
+                <a id="link1" style="text-decoration: none;" href="/html/main.html">Home</a>
+            </li>
+            <li>
+                <a id="link1" style="text-decoration: none;" href="/html/aboutus.html">About Us</a>
+            </li>
+
+        </div>
 
     </header>
-    <div class="main1">
-        <img src="../images/login1.png" width="25%" height="25%" style="margin: 100px;">
+    <main class="main1">
+        <img src="../images/login1.png" width="25%" height="25%">
         <div class="box">
-            <form name="myForm" action="" onsubmit="return validateForm()" method="post">
-                <label for="name"></label>
+            <form name="myForm" id="login-form">
                 <input type="text" id="name" name="name" placeholder="Name">
-                <label for="name"></label>
-                <input type="text" id="Phone Number" name="Phone Number" placeholder="Phone Number">
-
-                <label for="email"></label>
+                <input type="number" id="number" name="Phone Number" placeholder="Phone Number">
                 <input type="text" id="email" name="email" placeholder="Email">
-
-                <label for="password"></label>
                 <input type="password" id="password" name="password" placeholder="Password">
                 <input type="submit" value="Sign In">
-                <button id="google">
+                <button type="submit" id="google">
                     <img src="../images/google.png">
                     <a>Login with Google</a>
                 </button>
+            </form>
         </div>
-        </form>
-    </div>
     </main>
-    </div>
-</body>
-</html>
-</div>
+    <script src="../java_script/loginpage1.js"></script>
 </body>
 
 </html>

@@ -38,27 +38,34 @@
       <form action="/action_page.php">
         <div class="container">
           <h1>Register</h1>
-          <p>Please fill in this form to create an account.</p>
-          <hr>
+          <p class="textcolor-white">Please fill in this form to create an account.</p>
 
-          <label for="fname"><b>Full Name :</b></label>
+          <label for="fname">
+            <div class="textcolor-white">Full Name :</div>
+          </label>
           <input type="text" placeholder="Enter your full name" name="fname" id="fname" required>
 
-          <label for="phn no"><b>Phone number :</b></label>
+          <label for="phn no">
+            <div class="textcolor-white">Phone number :</div>
+          </label>
           <input type="text" placeholder="Enter your phone number" name="phn no" id="phn no" required>
 
-          <label for="age"><b>Age :</b></label>
+          <label for="age">
+            <div class="textcolor-white">Age :</div>
+          </label>
           <input type="text" placeholder="Enter your age" name="age" id="age" required>
 
-          <label for="Gender">Gender:</label>
-          <br>
-          <div class="custom-select" style="width:200px;">
-            <select>  
-              <option value="1">Male</option>
-              <option value="2">Female</option>
-              <option value="3">Other</option>
-          <button type="submit" class="registerbtn">Submit</button>
+          <div class="textcolor-white" for="Gender">Gender:</div>
+          <div>
+            <div name="gender" id="gender" class="gender">Choose gender</div>
+            <div id="gender-modal" class="hidden">
+                <span class="gender-modal-item">Male</span>
+                <span class="gender-modal-item">Female</span>
+                <span class="gender-modal-item">Other</span>
+            </div>
+          </div>
         </div>
+
       </form>
     </div>
   </div>
