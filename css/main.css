@@ -74,24 +74,29 @@ header{
     font-weight:870;
 }
 /*Home paragraph 1*/
+
 .p1{
   font-size:22px;
   font-weight:545;
 }
-.p11{
-  line-height:0.5;
+pre {
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 /*line homepage*/
 .box{
   background-color: #0B2447;
   height: 4px;
-  width:100%;
+  width:85%;
+  margin-left: 60px;
 }
+
 /*Home para 2*/
 .p2{
   font-size:25px;
   font-weight:750;
   line-height:0.5;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*home page pic 1*/
 .pic1{
