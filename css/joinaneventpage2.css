@@ -1,17 +1,27 @@
 body {
-    background-color: #0B2447;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    margin: 0;
-  }
-  
+  background-color:#101927;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+}
+.cyan{
+  background-color: #1B4D6D;
+  position: absolute;
+  top: -6rem;
+  height: 40.25rem;
+  width: 60.75rem;
+  border-radius: 50%;
+  --tw-blur: blur(10rem);
+  filter: var(--tw-blur);
+  z-index: -1;
+}
   header {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    height: 100px;
   }
   
   li {
@@ -73,28 +83,30 @@ body {
   
   .boxmain {
     display: flex;
-    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: calc(100vh - 100px);
   }
   
   .boximg {
-    margin-top: 100px;
-    margin-left: 200px;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .white-box {
     background-color: white;
-    height: 300px;
-    width: 250px;
+    width: 100px;
+    height: 100px;
   }
   
   .boxdetails {
-    margin-top: 100px;
-    margin-right: 50px;
-    width: 50%;
     background-color: white;
     height: 470px;
-    border-radius: 5px;
+    border-radius: 15px;
+    width: 90%;
   }
   
   #copy-link-overlay {
@@ -126,7 +138,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color:#0B2447;
+    background-color:#ffffff;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -137,35 +149,41 @@ body {
   }
   #copy-link-modal {
     background-color: white;
-    height: 325px;
-    width: 600px;
+    width: 500px;
     z-index: 99;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 25px;
     color: black;
     display: flex;
     flex-direction: column;
+    gap: 10px;
   }
   
   #copy-link-btn {
-    margin-top:150px;
+  margin-top:8px;
    text-align: center;
    background-color: #0B2447;
    color:white;
    border-radius: 5px;
-   height: 50px;
-   padding-top:10px;
-   font-size: large;
+   padding:14px;
+   margin-bottom: 10px;
+   cursor: pointer;
   }
   .top-one{
     display:flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
   }
   .middle-one{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 5px;
   }
-  .link-text{
-    margin-top:40px;
-    margin-left: 40px;
+  .invite-link{
+    display: flex;
+    align-items: center;
+    background-color:#f1efef;
+    border-radius: 5px;
   }

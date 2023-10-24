@@ -1,76 +1,51 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/joinaneventpage3.css">
-  <script defer src="../java_script/joinanevent3.js"> </script>
-  <title>Voluntra | Join an Event</title>
+  <title> Voluntra | Login </title>
   <link rel="icon" href="../images/logo.png">
+  <link rel="stylesheet" href="../css/loginorg1.css">
   <meta name="viewport" content="width=device-width">
-	<meta charset="utf-8">
-
+  <meta charset="utf-8">
 </head>
 
 <body>
+  <div class="cyan">
+
+  </div>
   <header>
-    <img src="../images/logo1.png" width="120" height="80" style="margin-bottom: 8px;">
+    <img src="../images/logo1.png" width="159" height="100" style="margin-bottom: 8px;">
     <div class="h1pos">
       <li>
-        <a class="hover-underline-animation" id="link" style="text-decoration: none;" href="/html/main.html">Home</a>
+        <a class="hover-underline-animation" id="link1" style="text-decoration: none;" href="/html/main.html">Home</a>
       </li>
       <li>
-        <a class="hover-underline-animation" id="link" style="text-decoration: none;" href="/html/aboutus.html">About Us</a>
+        <a class="hover-underline-animation" id="link1" style="text-decoration: none;" href="/html/aboutus.html">About
+          Us</a>
       </li>
-      <li>
-        <a class="hover-underline-animation" id="link" style="text-decoration: none;" href="/html/myevents.html">My Events</a>
-      </li>
+
     </div>
+
   </header>
-  <div class="flex-container">
-    <div class="grid-container">
-      <div class="grid-item1">
-        <img src="../images/jan1.svg" height="250px" width="250px">
-      </div>
-      <div class="grid-item2">
-        <img src="../images/jan2.svg" height="250px" width="250px">
-      </div>
-    </div>
-    <div class="bg-text">
-      <form action="/action_page.php">
-        <div class="container">
-          <h1>Register</h1>
-          <p class="textcolor-white">Please fill in this form to create an account.</p>
-
-          <label for="fname">
-            <div class="textcolor-white">Full Name :</div>
-          </label>
-          <input type="text" placeholder="Enter your full name" name="fname" id="fname" required>
-
-          <label for="phn no">
-            <div class="textcolor-white">Phone number :</div>
-          </label>
-          <input type="text" placeholder="Enter your phone number" name="phn no" id="phn no" required>
-
-          <label for="age">
-            <div class="textcolor-white">Age :</div>
-          </label>
-          <input type="text" placeholder="Enter your age" name="age" id="age" required>
-
-          <div class="textcolor-white" for="Gender">Gender:</div>
-          <div>
-            <div name="gender" id="gender" class="gender">Choose gender</div>
-            <div id="gender-modal" class="hidden">
-                <span class="gender-modal-item">Male</span>
-                <span class="gender-modal-item">Female</span>
-                <span class="gender-modal-item">Other</span>
-            </div>
-          </div>
-        </div>
-
+  <main class="main1">
+    <h1>
+      Join the Event
+    </h1>
+    <div class="box">
+      <form name="myForm" id="login-form">
+        <input type="text" id="name" name="name" placeholder="Name">
+        <input type="text" id="number" name="Phone Number" placeholder="Phone Number">
+        <input type="number" id="age" placeholder="Age">
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <input type="submit" value="Next">
       </form>
     </div>
-  </div>
+  </main>
+  <script src="../java_script/loginpage1.js"></script>
 </body>
 
 </html>

@@ -1,10 +1,20 @@
 body {
-  background-color: #0B2447;
+  background-color:#101927;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin: 0;
 }
-
+.cyan{
+  background-color: #1B4D6D;
+  position: absolute;
+  top: -6rem;
+  height: 40.25rem;
+  width: 60.75rem;
+  border-radius: 50%;
+  --tw-blur: blur(10rem);
+  filter: var(--tw-blur);
+  z-index: -1;
+}
 header {
   display: flex;
   width: 100%;
@@ -184,7 +194,3 @@ hr {
   bottom: 8px;
 }
 
-.gender-modal-item {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
