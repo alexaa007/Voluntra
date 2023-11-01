@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color:#101927;
+  line-height: inherit;
+}
+
+li{
+  list-style-type: none;
+  position: relative;
+  padding-right: 50px;
+}
+.align{
+display: flex;
+flex-direction: row;
+}
+.login1{
+color:white;
+margin-right: 3rem;
+}
+.hover-underline-animation {
+display: inline-block;
+position: relative;
+color:white;
+}
+.cyan{
+  background-color: #1B4D6D;
+  position: absolute;
+  top: -6rem;
+  height: 40.25rem;
+  width: 60.75rem;
+  border-radius: 50%;
+  --tw-blur: blur(10rem);
+  filter: var(--tw-blur);
+  z-index: -1;
+}
+.hover-underline-animation:after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color:white;
+transform-origin: bottom right;
+transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}
+/*nav sticky
+.navbar.sticky {
+  background-color: rgba(0,23,28,.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 4px 2px #000;
+}
+.navbtn {
+display: none;
+position: absolute;
+top: 1.5rem;
+right: 3rem;
+}
+*/
+
+/*link color*/
+#link{
+  color:white;
+}
+#link1{
+  color:#0B2447;
+}
+/*for the nav bar*/
+header{
+display:flex;
+width:100%;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+/*HOME,ABOUT US,MY EVENT*/
+.h1pos{
+  margin-right:40px;
+  font-size: 23px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*home page content part 1*/
+.home1{
+display:flex;
+flex-direction: column;
+align-items: center;
+width:100%;
+justify-content: center;
+height: 82vh;
+gap: 6rem;
+}
+
+
+/*TOGETHER WE CAN DO IT*/
+.h2pos1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+/*Home paragraph 1*/
+
+.p1{
+font-size:22px;
+font-weight:545;
+text-align: center;
+}
+
+.info {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 3rem;
+align-items: center;
+}
+
+/*line homepage*/
+.line{
+background-color: #0B2447;
+height: 4px;
+width: 120%;
+}
+.box1{
+background-color: #0B2447;
+height: 45px;
+width:100%;
+display: flex;
+justify-content: end;
+align-items: center;
+}
+/*Home para 2*/
+.p2{
+font-size:25px;
+font-weight:750;
+text-align: center;
+}
+#post-an-event{
+  background-color:#0B2447;
+  border-radius:10px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:25px;
+  font-weight:750;
+  color:white;
+  display: flex;
+}
+#join-an-event{
+  background-color:white;
+  border-radius:10px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:25px;
+  font-weight:750;
+  color:#0B2447;
+  display: flex;
+}
+.left-content{
+  margin-top: 7rem;
+  width:100%;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+}
+.sign{
+  gap:1rem;
+}
