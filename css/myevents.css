@@ -1,8 +1,17 @@
 body {
-  background-color: white;
+  background-color:#101927;
   font-family: Arial, Helvetica, sans-serif;
-  color: #0B2447;
-  margin: 0;
+}
+.cyan{
+  background-color: #1B4D6D;
+  position: absolute;
+  top: -6rem;
+  height: 40.25rem;
+  width: 60.75rem;
+  border-radius: 50%;
+  --tw-blur: blur(10rem);
+  filter: var(--tw-blur);
+  z-index: -1;
 }
 p {
   line-height: 0.2em;
@@ -15,7 +24,7 @@ li{
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color:#0B2447;
+  color:#ffffff;
 }
 
 .hover-underline-animation:after {
@@ -26,7 +35,7 @@ li{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color:#0B2447;
+  background-color:#ffffff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -41,9 +50,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-#link1{
-  color: #0B2447;
 }
 #link{
   color: white;
@@ -95,21 +101,12 @@ button {
   margin-right: 20px;
 }
 footer{
-  color:white;
-  background-color: #0B2447;
+  color: #ffffff59;;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
-  padding-top:80px;
-  padding-bottom: 30px;
-}
-.rights{
-  display:flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-}
-.Socials{
-  font-size:30px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
