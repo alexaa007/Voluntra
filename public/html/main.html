@@ -7,12 +7,15 @@
 	<link rel="stylesheet" href="../css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
+	<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 </head>
 
 <body>
 	<div class="cyan">
 
 	</div>
+	<div id="root"></div>
 		<div class="box1">
 			<a class="login1" style="text-decoration: none;" href="../html/login.html">Login</a>
 		</div>
@@ -155,5 +158,9 @@
 		</footer>
 	</main>
 </body>
+<script src="../react-build/main.js"></script>
+<script>
+	ReactDOM.render(React.createElement(Main), document.getElementById('root'));
+</script>
 
 </html>
