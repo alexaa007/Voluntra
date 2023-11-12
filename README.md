@@ -1,4 +1,3 @@
-```markdown
 # Voluntra
 VOLUNTRA: A webapge to find volunteers for events.
 
