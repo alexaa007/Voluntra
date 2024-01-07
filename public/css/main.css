@@ -150,7 +150,7 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin-top:90px;
+ margin-bottom: 10px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -289,4 +289,27 @@ footer{
   padding-top: 4rem;
 }
 
-
+#post-an-event{
+  background-color:#0B2447;
+  border-radius:10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size:25px;
+  font-weight:750;
+  color:white;
+  display: flex;
+}
+#join-an-event{
+  background-color:white;
+  border-radius:10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size:25px;
+  font-weight:750;
+  color:#0B2447;
+  display: flex;
+}

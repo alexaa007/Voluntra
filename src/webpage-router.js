@@ -11,8 +11,11 @@ router.get('/', (req, res) => {
     res.sendFile('main.html', { root: `${__dirname}/../public/html` });
 })
 
-router.get('/auth', (req, res) => {
+router.get('/login', (req, res) => {
     res.sendFile('login.html', { root: `${__dirname}/../public/html` });
+})
+router.get('/login', (req, res) => {
+    res.sendFile('login1.html', { root: `${__dirname}/../public/html` });
 })
 
 

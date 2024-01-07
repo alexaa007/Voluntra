@@ -4,7 +4,7 @@
 <head>
 	<title> Voluntra | Event Details </title>
 	<link rel="icon" href="../images/logo.png">
-	<link rel="stylesheet" href="../css/loginorg2.css">
+	<link rel="stylesheet" href="/public/css/orgdetails.css">
 	<meta name="viewport" content="width=device-width">
 	<meta charset="utf-8">
 </head>
@@ -29,12 +29,16 @@
 		<div class="box">
 			<form name="myForm">
 
-				<input type="text" placeholder="Name of the Event">
+				<div class="align">
+					<div>
+						<input type="text" placeholder="Name of the Event">
 				<input type="text" placeholder="Description of the Event">
 				<input type="text" placeholder="Place of the Event">
 
 				<input placeholder="Date " class="date" type="text" onfocus="(this.type='date')" id="date" />
-				<input type="number" class="date" placeholder="  Volunteers Required">
+					</div>
+				<div>
+					<input type="number"  placeholder="  Volunteers Required">
 				<input type="text" placeholder="Minimum age required">
 
 				<input type="file" placeholder="Poster of the event" id="file-input-1" name="file-input" />
@@ -48,19 +52,15 @@
 					<p class="poster"> Picture of the Organiser (optional) </p> 
 					<img class="img1" src="../images/upload.svg" width="32px" height="32px">
 				</label>
+				</div>
 				<input type="submit" value="Submit">
+				</div>
 			</form>
 		</div>
 
 	</div>
-	</div>
-	</main>
-	</div>
+	<script src="../js/orgdetails.js"></script>
 
-</body>
-
-</html>
-</div>
 </body>
 
 </html>

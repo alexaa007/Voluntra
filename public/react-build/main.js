@@ -1,3 +1,3 @@
 function Main() {
-  return /*#__PURE__*/React.createElement("h1", null, "Hellokkk");
+  return /*#__PURE__*/React.createElement("h1", null, " ");
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="/public/css/test.css">
+
+      <title>Login</title>
+   </head>
+   <body>
+      <div class="cyan">
+
+      </div>
+      <header>
+         <img src="../images/logo1.png" width="159" height="100" style="margin-bottom: 8px;">
+         <div class="h1pos">
+            <li>
+               <a class="hover-underline-animation" id="link1" style="text-decoration: none;" href="/html/main.html">Home</a>
+            </li>
+            <li>
+               <a class="hover-underline-animation" id="link1" style="text-decoration: none;" href="/html/aboutus.html">About Us</a>
+            </li>
+            
+         </div>
+      </header>
+      <div class="login">
+        
+
+         <form action="" class="login__form">
+            <h1 class="login__title">Event Details</h1>
+
+<div class="align">
+    <div>
+        <div class="login__inputs">
+            <div class="login__box">
+               <input type="text" placeholder="Name of the Event" required class="login__input">
+            </div>
+            <div class="login__box">
+             <input type="text" placeholder="Description of the Event" required class="login__input">
+          </div>
+          <div class="login__box">
+             <input type="text" placeholder="Place of the Event" required class="login__input">
+          </div>
+          <div class="login__box">
+            <input placeholder="Date" class="date" type="text" onfocus="(this.type='date')" id="date" />
+          </div>    
+         </div>
+    </div>
+
+    <div>
+        <div class="login__inputs">
+            <div class="login__box">
+               <input type="number" placeholder="Volunteers Required" required class="login__input">
+            </div>
+            <div class="login__box">
+             <input type="text" placeholder="Minimum Age Required" required class="login__input">
+          </div>
+          <div class="login__box">
+            <input type="file" placeholder="Poster of the event" id="file-input-1" name="file-input" />
+                <input type="file" id="file-input-1" name="file-input" />
+                <label class="file-input-label-1" for="file-input-1">
+                    <p class="poster"> Poster of the event</p>
+                    <img class="img1" src="../images/upload.svg" width="32px" height="32px">
+                </label>
+                
+          </div>
+         </div>
+    </div>
+</div>
+            
+            <button type="submit" class="login__button">Submit</button>
+         </form>
+         
+      </div>
+   </body>
+</html>
